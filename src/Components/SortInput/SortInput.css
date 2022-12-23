@@ -1,0 +1,33 @@
+.sort-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  margin-top: 21px;
+}
+.avalible-tours {
+  font-size: 21px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.sort-input select {
+  border: none;
+  padding: 10px 17px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: 500;
+  outline: none;
+}
+.sort-input select option {
+  padding: 10px;
+}
+/* Media Queries */
+@media (max-width: 600px) {
+  .sort-input {
+    flex-direction: column;
+  }
+  .avalible-tours {
+    margin: 30px 0;
+  }
+}
