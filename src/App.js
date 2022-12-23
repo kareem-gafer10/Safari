@@ -15,7 +15,7 @@ const App = () => {
   const [sortItem, setSortItem] = useState("recomended");
 
   // Pagination
-  const perPages = 3;
+  const perPages = 6;
   const pages = Math.ceil(toursList.length / perPages);
   const startIndex = (currentPage - 1) * perPages;
   const finishIndex = currentPage * perPages;
